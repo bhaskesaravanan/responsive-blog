@@ -5,7 +5,7 @@ module.exports =(argv)=> {
     devtool: "inline-source-map",
     entry: [path.join(__dirname, "./assets/index.tsx")],
     output: {
-      path: path.join(__dirname, "./public/js/dist"),
+      path: path.join(__dirname, "./app/public/js/dist"),
       filename: "bundle.js",
     },
     module: {

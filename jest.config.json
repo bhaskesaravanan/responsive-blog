@@ -1,0 +1,6 @@
+{
+    "testRegex": "/*-test.tsx$",
+    "moduleFileExtensions": ["js","ts", "tsx"],
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["./setupTests.js"]
+}
